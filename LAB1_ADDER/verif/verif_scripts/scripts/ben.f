@@ -1,1 +1,1 @@
-export WORKAREA="/home/albert/Desktop/Lab1_adder"
+-f $WORKAREA/03_verif/verif/sv/lab_ben.flist
