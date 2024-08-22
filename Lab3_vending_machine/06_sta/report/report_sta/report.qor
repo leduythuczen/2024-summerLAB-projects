@@ -1,0 +1,49 @@
+****************************************
+Report : qor
+Design : vending_machine
+Version: M-2016.12-SP1
+Date   : Thu Oct 28 17:02:37 2021
+****************************************
+
+  Timing Path Group 'clk' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                            5
+  Critical Path Length:                   12.29
+  Critical Path Slack:                     9.58
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'clk' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            2
+  Critical Path Length:                    2.13
+  Critical Path Slack:                     0.02
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Cell Count
+  ---------------------------------------------
+  Hierarchical Cell Count:                    0
+  Hierarchical Port Count:                    0
+  Leaf Cell Count:                           38
+  ---------------------------------------------
+
+
+  Area
+  ---------------------------------------------
+  Net Interconnect area:                   0.00
+  Total cell area:                        66.77
+  Design Area:                            66.77
+  Area Cost:                             -66.77
+  ---------------------------------------------
+
+
+  Design Rule Violations
+  ---------------------------------------------
+  Total No. of Pins in Design:              147
+  Total DRC Cost:                          0.00
+  ---------------------------------------------
+
+1

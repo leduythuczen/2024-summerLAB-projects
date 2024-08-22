@@ -1,0 +1,18 @@
+****************************************
+Report : clock
+Design : vending_machine
+Version: M-2016.12-SP1
+Date   : Thu Oct 28 17:02:37 2021
+****************************************
+
+
+Attributes:
+    p - Propagated clock
+    G - Generated  clock
+    I - Inactive   clock
+
+Clock          Period   Waveform            Attrs     Sources        Voltage Config
+-----------------------------------------------------------------------------------
+clk             20.00   {0 10}                        {clk}
+
+1

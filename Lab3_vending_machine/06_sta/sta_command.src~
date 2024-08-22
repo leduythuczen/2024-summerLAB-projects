@@ -1,0 +1,54 @@
+#!/bin/bash
+
+#============== SET DIRECTORY =================
+set search_path "/home/hoangtrang/Desktop/icc_lab/logical_lib"
+set osearch_path [ concat $search_path \
+                ]
+#============== ADD THE LIBRARY ================
+set target_library "NangateOpenCellLibrary_typical.db"
+set link_library "* $target_library"
+
+#============= LINK DESIGN ==================
+read_verilog "./../04_synth/report/lab_synth.netlist.v"
+current_design vending_machine
+link
+
+#============= CONSTRAINT FOR STA ============
+set_units -time ns -resistance kOhm -capacitance pF -voltage V -current mA
+set_max_area 0
+set_driving_cell -min -lib_cell BUFX1BA12TH [get_ports clk]
+set_driving_cell -min -lib_cell BUFX1BA12TH [get_ports rst]
+create_clock -name clk -period 20 {clk}
+set_clock_uncertainty 0.1 [get_clocks clk]
+set_clock_latency 2 [get_clocks clk]
+set_clock_transition -max -rise 0.1 [get_clocks clk]
+set_clock_transition -max -fall 0.1 [get_clocks clk]
+set_clock_transition -min -rise 0.1 [get_clocks clk]
+set_clock_transition -min -fall 0.1 [get_clocks clk]
+set_input_delay -max 10 -clock clk  [all_inputs] 
+set_input_delay -min 1 -clock clk  [all_inputs] 
+set_output_delay -max 10 -clock clk [all_outputs] 
+set_output_delay -min 1 -clock clk [all_outputs] 
+set_fanout_load 8 [all_outputs]
+
+#============= OPERATING CONDITIONS===============
+set_operating_conditions -analysis_type on_chip_variation
+
+#============ REPORT DESIGN========================
+report_design > report/report_design/report.design
+report_net > report/report_design/report.net
+report_cell > report/report_design/report.cell
+report_hierarchy > report/report_design/report.hierarchy
+report_clock > report/report_design/report.clock
+report_path_group > report/report_design/report.pg
+
+#============= REPORT STA ===============
+report_timing -delay_type max > report/report_sta/report.timing
+report_timing -delay_type min >> report/report_sta/report.timing
+report_port > report/report_sta/report.port
+report_constraint > report/report_sta/report.constraint
+report_global_slack > report/report_sta/report.glbslk
+report_analysis_coverage > report/report_sta/report.anacov
+report_qor > report/report_sta/report.qor
+
+quit

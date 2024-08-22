@@ -1,0 +1,17 @@
+****************************************
+Report : path_group
+Design : vending_machine
+Version: M-2016.12-SP1
+Date   : Thu Oct 28 17:02:37 2021
+****************************************
+
+Path_Group     Weight   From      Through        To
+--------------------------------------------------------------------------------
+**async_default**
+                 1.00   -         -              -
+**clock_gating_default**
+                 1.00   -         -              -
+**default**      1.00   -         -              -
+clk              1.00   *         *              clk
+
+1

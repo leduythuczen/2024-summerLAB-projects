@@ -1,0 +1,101 @@
+****************************************
+Report : cell
+Design : vending_machine
+Version: M-2016.12-SP1
+Date   : Thu Oct 28 17:02:37 2021
+****************************************
+
+Attributes:
+    b - black-box (unknown)
+    h - hierarchical
+    n - noncombinational
+    u - contains unmapped logic
+    A - abstracted timing model
+    E - extracted timing model
+    S - Stamp timing model
+    Q - Quick timing model (QTM)
+    I - ideal network
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U39                       NAND2_X1        NangateOpenCellLibrary_typ
+                                                              0.80  
+U40                       AOI221_X1       NangateOpenCellLibrary_typ
+                                                              1.60  
+U41                       NOR3_X1         NangateOpenCellLibrary_typ
+                                                              1.06  
+U42                       NAND2_X1        NangateOpenCellLibrary_typ
+                                                              0.80  
+U43                       NOR3_X1         NangateOpenCellLibrary_typ
+                                                              1.06  
+U44                       NOR3_X1         NangateOpenCellLibrary_typ
+                                                              1.06  
+U45                       NOR2_X1         NangateOpenCellLibrary_typ
+                                                              0.80  
+U46                       NOR2_X1         NangateOpenCellLibrary_typ
+                                                              0.80  
+U47                       AOI22_X1        NangateOpenCellLibrary_typ
+                                                              1.33  
+U48                       NOR2_X1         NangateOpenCellLibrary_typ
+                                                              0.80  
+U49                       NAND2_X1        NangateOpenCellLibrary_typ
+                                                              0.80  
+U50                       NAND4_X1        NangateOpenCellLibrary_typ
+                                                              1.33  
+U51                       INV_X1          NangateOpenCellLibrary_typ
+                                                              0.53  
+U52                       INV_X1          NangateOpenCellLibrary_typ
+                                                              0.53  
+U53                       NAND2_X1        NangateOpenCellLibrary_typ
+                                                              0.80  
+U54                       NAND3_X1        NangateOpenCellLibrary_typ
+                                                              1.06  
+U55                       INV_X1          NangateOpenCellLibrary_typ
+                                                              0.53  
+U56                       NAND3_X1        NangateOpenCellLibrary_typ
+                                                              1.06  
+U57                       OAI211_X1       NangateOpenCellLibrary_typ
+                                                              1.33  
+U58                       NOR2_X1         NangateOpenCellLibrary_typ
+                                                              0.80  
+U59                       OAI211_X1       NangateOpenCellLibrary_typ
+                                                              1.33  
+U60                       INV_X1          NangateOpenCellLibrary_typ
+                                                              0.53  
+U61                       OAI221_X1       NangateOpenCellLibrary_typ
+                                                              1.60  
+U62                       OAI211_X1       NangateOpenCellLibrary_typ
+                                                              1.33  
+U63                       INV_X1          NangateOpenCellLibrary_typ
+                                                              0.53  
+U64                       INV_X1          NangateOpenCellLibrary_typ
+                                                              0.53  
+U65                       AOI221_X1       NangateOpenCellLibrary_typ
+                                                              1.60  
+U66                       OAI211_X1       NangateOpenCellLibrary_typ
+                                                              1.33  
+U67                       OAI22_X1        NangateOpenCellLibrary_typ
+                                                              1.33  
+U68                       AOI221_X1       NangateOpenCellLibrary_typ
+                                                              1.60  
+out5_reg                  DFF_X1          NangateOpenCellLibrary_typ
+                                                              4.52  n
+out10_reg                 DFF_X1          NangateOpenCellLibrary_typ
+                                                              4.52  n
+out15_reg                 DFF_X1          NangateOpenCellLibrary_typ
+                                                              4.52  n
+out_water_reg             DFF_X1          NangateOpenCellLibrary_typ
+                                                              4.52  n
+state_reg[0]              DFF_X1          NangateOpenCellLibrary_typ
+                                                              4.52  n
+state_reg[1]              DFF_X1          NangateOpenCellLibrary_typ
+                                                              4.52  n
+state_reg[2]              DFF_X1          NangateOpenCellLibrary_typ
+                                                              4.52  n
+state_reg[3]              DFF_X1          NangateOpenCellLibrary_typ
+                                                              4.52  n
+--------------------------------------------------------------------------------
+Total 38 cells                                               66.77
+
+
+1

@@ -1,0 +1,8 @@
+module dff(in,clk,out);
+input in, clk;
+output reg out;
+
+always @(posegde clk)
+out <= in;
+
+endmodule

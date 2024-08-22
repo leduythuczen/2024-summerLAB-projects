@@ -1,0 +1,22 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -l /home/albert/Desktop/Lab2_counter/03_verif/sim_result/rtl_vlog.log -full64 +v2k +define+VCS -work lab_rtl -full64
+
+all :		_VCSgd_12OJsc_1.db \
+	_VCSgd_ZKe7Le_1.db \
+	_VCSgd_XeFzj_1.db \
+
+
+
+_VCSgd_12OJsc_1.db :	/home/albert/Desktop/Lab2_counter/02_rtl/add_1.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/albert/Desktop/Lab2_counter/02_rtl/add_1.v
+
+
+_VCSgd_ZKe7Le_1.db :	/home/albert/Desktop/Lab2_counter/02_rtl/DFF.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/albert/Desktop/Lab2_counter/02_rtl/DFF.v
+
+
+_VCSgd_XeFzj_1.db :	/home/albert/Desktop/Lab2_counter/02_rtl/counter.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/albert/Desktop/Lab2_counter/02_rtl/counter.v
+
+

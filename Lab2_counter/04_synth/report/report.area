@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : counter
+Version: L-2016.03-SP1
+Date   : Thu Sep 30 03:33:29 2021
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    scadv12_cln65lp_hvt_ff_1p32v_0c (File: /home/albert/Desktop/Lab2_counter/04_synth/lib/scadv12_cln65lp_hvt_ff_1p32v_0c.db)
+
+Number of ports:                           17
+Number of nets:                            54
+Number of cells:                           53
+Number of combinational cells:             37
+Number of sequential cells:                16
+Number of macros/black boxes:               0
+Number of buf/inv:                          8
+Number of references:                       8
+
+Combinational area:                 86.880000
+Buf/Inv area:                       11.520000
+Noncombinational area:             161.279999
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   248.159999
+Total area:                 undefined
+1

@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -l /home/albert/Desktop/Lab2_counter/03_verif/sim_result/ben_vlog.log -full64 +v2k -timescale=1ns/1ps +define+VCS +define+LOG_DIR=/home/albert/Desktop/Lab2_counter/03_verif/sim_result/ -work lab_ben -full64
+
+all :		_VCSgd_VGd4Rd_1.db \
+
+
+
+_VCSgd_VGd4Rd_1.db :	/home/albert/Desktop/Lab2_counter/03_verif/verif/sv/testtop.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/albert/Desktop/Lab2_counter/03_verif/verif/sv/testtop.v
+
+

@@ -1,0 +1,107 @@
+$date
+	Thu Sep 30 03:30:23 2021
+$end
+
+$version
+	Synopsys VCS version M-2017.03-SP2_Full64
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 208f0e75148ba169 $end
+
+
+$scope module testtop $end
+$var reg 1 ! clk $end
+$var wire 16 " out [15:0] $end
+
+$scope module counter_inst $end
+$var wire 1 ! clk $end
+$var wire 16 " out [15:0] $end
+$var wire 16 " cnt_add1 [15:0] $end
+$var wire 16 # cnt [15:0] $end
+
+$scope module add1_inst $end
+$var wire 16 # in [15:0] $end
+$var wire 16 " out [15:0] $end
+$upscope $end
+
+
+$scope module ff_inst $end
+$var wire 16 " in [15:0] $end
+$var wire 1 ! clk $end
+$var reg 16 # out [15:0] $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+b0000000000000001 "
+b0000000000000000 #
+$end
+#5
+1!
+b0000000000000001 #
+b0000000000000010 "
+#10
+0!
+#15
+1!
+b0000000000000010 #
+b0000000000000011 "
+#20
+0!
+#25
+1!
+b0000000000000011 #
+b0000000000000100 "
+#30
+0!
+#35
+1!
+b0000000000000100 #
+b0000000000000101 "
+#40
+0!
+#45
+1!
+b0000000000000101 #
+b0000000000000110 "
+#50
+0!
+#55
+1!
+b0000000000000110 #
+b0000000000000111 "
+#60
+0!
+#65
+1!
+b0000000000000111 #
+b0000000000001000 "
+#70
+0!
+#75
+1!
+b0000000000001000 #
+b0000000000001001 "
+#80
+0!
+#85
+1!
+b0000000000001001 #
+b0000000000001010 "
+#90
+0!
+#95
+1!
+b0000000000001010 #
+b0000000000001011 "

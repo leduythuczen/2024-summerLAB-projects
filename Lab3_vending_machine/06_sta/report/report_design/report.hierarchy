@@ -1,0 +1,20 @@
+****************************************
+Report : hierarchy
+Design : vending_machine
+Version: M-2016.12-SP1
+Date   : Thu Oct 28 17:02:37 2021
+****************************************
+
+    AOI221_X1                       NangateOpenCellLibrary_typ
+    AOI22_X1                        NangateOpenCellLibrary_typ
+    DFF_X1                          NangateOpenCellLibrary_typ
+    INV_X1                          NangateOpenCellLibrary_typ
+    NAND2_X1                        NangateOpenCellLibrary_typ
+    NAND3_X1                        NangateOpenCellLibrary_typ
+    NAND4_X1                        NangateOpenCellLibrary_typ
+    NOR2_X1                         NangateOpenCellLibrary_typ
+    NOR3_X1                         NangateOpenCellLibrary_typ
+    OAI211_X1                       NangateOpenCellLibrary_typ
+    OAI221_X1                       NangateOpenCellLibrary_typ
+    OAI22_X1                        NangateOpenCellLibrary_typ
+1

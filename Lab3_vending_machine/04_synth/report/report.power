@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : vending_machine
+Version: L-2016.03-SP1
+Date   : Wed Oct 27 20:47:02 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_typ (File: /home/albert/Desktop/icc_lab/logical_lib/NangateOpenCellLibrary_typical.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary_typ
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+vending_machine        5K_hvratio_1_1    NangateOpenCellLibrary_typ
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   3.0509 uW   (87%)
+  Net Switching Power  = 447.5633 nW   (13%)
+                         ---------
+Total Dynamic Power    =   3.4985 uW  (100%)
+
+Cell Leakage Power     =   1.3744 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           2.8257            0.2184          612.5831            3.6566  (  75.04%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.2253            0.2292          761.8089            1.2163  (  24.96%)
+--------------------------------------------------------------------------------------------------
+Total              3.0509 uW         0.4476 uW     1.3744e+03 nW         4.8729 uW
+1

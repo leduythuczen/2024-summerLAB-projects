@@ -1,0 +1,112 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "testtop": {
+            "bi8zs_d": {
+                "archive": "archive.6/_14729_archive_1.a",
+                "bytes": 18954,
+                "out": "bi8zs_d.o",
+                "mod": "testtop",
+                "mode": 4,
+                "checksum": 0
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7371,
+                "out": "objs/amcQw_d.o",
+                "mod": "...MASTER...",
+                "mode": 4,
+                "checksum": 0
+            }
+        }
+    },
+    "NameTable": {
+        "testtop": [
+            "testtop",
+            "bi8zs",
+            "module",
+            1
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            2
+        ]
+    },
+    "stat": {
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0009990000000000001,
+            "ru_stime_sec": 0.0089980000000000008,
+            "ru_nivcsw": 19,
+            "ru_minflt": 4192,
+            "ru_maxrss_kb": 19096,
+            "ru_majflt": 0,
+            "ru_nvcsw": 9
+        },
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.042993000000000003,
+            "ru_stime_sec": 0.024996000000000001,
+            "ru_nivcsw": 42,
+            "ru_minflt": 21454,
+            "ru_maxrss_kb": 62208,
+            "ru_majflt": 0,
+            "ru_nvcsw": 15
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0009990000000000001,
+            "ru_stime_sec": 0.0069979999999999999,
+            "ru_nivcsw": 16,
+            "ru_minflt": 3662,
+            "ru_maxrss_kb": 18616,
+            "ru_majflt": 0,
+            "ru_nvcsw": 8
+        },
+        "CodeGen(%)": 17.308432066471752,
+        "totalObjSize": 115836,
+        "nMops": 632,
+        "nQuads": 480,
+        "ru_self_end": {
+            "ru_utime_sec": 0.051991999999999997,
+            "ru_stime_sec": 0.029995000000000001,
+            "ru_nivcsw": 43,
+            "ru_minflt": 24505,
+            "ru_maxrss_kb": 70988,
+            "ru_majflt": 0,
+            "ru_nvcsw": 16
+        },
+        "outputSizePerQuad": 241.32499999999999,
+        "Frontend(%)": 82.691567933528248,
+        "peak_mem_kb": 227964
+    },
+    "CompileStatus": "Successful",
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "archive": "archive.6/_14729_archive_1.a",
+        "bytes": 96746
+    },
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "testtop",
+        "testtop"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "cwd": "/home/albert/Desktop/Lab3_vending_machine/03_verif/verif/scripts",
+        "csrc": "csrc",
+        "csrc_abs": "/home/albert/Desktop/Lab3_vending_machine/03_verif/verif/scripts/csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/albert/Desktop/Lab3_vending_machine/03_verif/verif/scripts/simv.daidir",
+        "archive_dir": "archive.6",
+        "default_output_dir": "csrc"
+    },
+    "CompileProcesses": [
+        "cgproc.14729.json"
+    ]
+}

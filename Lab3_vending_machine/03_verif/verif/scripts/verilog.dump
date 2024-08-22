@@ -1,0 +1,222 @@
+$date
+	Wed Oct 27 20:45:21 2021
+$end
+
+$version
+	Synopsys VCS version M-2017.03-SP2_Full64
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 bb65236ef03facb2 $end
+
+
+$scope module testtop $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 1 # buy $end
+$var reg 1 $ cancel $end
+$var reg 1 % in5 $end
+$var reg 1 & in10 $end
+$var wire 1 ' out_water $end
+$var wire 1 ( out5 $end
+$var wire 1 ) out10 $end
+$var wire 1 * out15 $end
+
+$scope module vm_inst $end
+$var reg 4 + state [3:0] $end
+$var wire 1 ! clk $end
+$var wire 1 " rst $end
+$var wire 1 # buy $end
+$var wire 1 $ cancel $end
+$var wire 1 % in5 $end
+$var wire 1 & in10 $end
+$var reg 1 ' out_water $end
+$var reg 1 ( out5 $end
+$var reg 1 ) out10 $end
+$var reg 1 * out15 $end
+$var reg 4 , next_state [3:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0#
+0$
+0!
+0&
+0%
+0"
+x)
+x*
+x(
+x'
+b0000 ,
+bxxxx +
+$end
+#5
+1!
+0'
+0(
+0)
+0*
+b0000 +
+#10
+1"
+0!
+#15
+1!
+#20
+0"
+0!
+#25
+1!
+#30
+0!
+#35
+1!
+#40
+1#
+0!
+b0001 ,
+#45
+1!
+b0001 +
+#50
+0#
+1%
+0!
+b0010 ,
+#55
+1!
+b0010 +
+b0011 ,
+#60
+0%
+1&
+0!
+b0100 ,
+#65
+1!
+b0100 +
+b0110 ,
+#70
+0&
+1%
+0!
+b0101 ,
+#75
+1!
+b0101 +
+b0000 ,
+#80
+0%
+0!
+#85
+1!
+1'
+b0000 +
+#90
+0!
+#95
+1!
+0'
+#100
+0!
+#105
+1!
+#110
+1#
+0!
+b0001 ,
+#115
+1!
+b0001 +
+#120
+0#
+1%
+0!
+b0010 ,
+#125
+1!
+b0010 +
+b0011 ,
+#130
+0%
+1&
+0!
+b0100 ,
+#135
+1!
+b0100 +
+b0110 ,
+#140
+0!
+#145
+1!
+b0110 +
+b0000 ,
+#150
+0&
+0!
+#155
+1!
+1'
+1(
+b0000 +
+#160
+0!
+#165
+1!
+0'
+0(
+#170
+0!
+#175
+1!
+#180
+1#
+0!
+b0001 ,
+#185
+1!
+b0001 +
+#190
+0#
+1&
+0!
+b0011 ,
+#195
+1!
+b0011 +
+b0101 ,
+#200
+0&
+1$
+0!
+b1000 ,
+#205
+1!
+b1000 +
+b0000 ,
+#210
+0$
+0!
+#215
+1!
+1)
+b0000 +
+#220
+0!
+#225
+1!
+0)
+#230
+0!
+#235
+1!

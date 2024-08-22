@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#============== SET DIRECTORY =================
+#set search_path "./../lib"
+set search_path "/home/albert/Desktop/icc_lab/logical_lib"
+set osearch_path [ concat $search_path \
+                ]
+#============== ADD THE LIBRARY ================
+set target_library "NangateOpenCellLibrary_typical.db"
+set link_library "* $target_library"
+set synthesis_library standard.sldb
+
+#============= ANALYSE DESIGN ==================
+analyze -format verilog -vcs "-f ./../../03_verif/verif/scripts/rtl.f"
+elaborate vending_machine
+current_design vending_machine
+
+#============= CONSTRAINT FOR DESIGN ============
+create_clock -name clk -period 40 {clk}
+set_input_delay -max 10 -clock clk  [all_inputs] 
+set_input_delay -min 1 -clock clk  [all_inputs] 
+set_output_delay -max 10 -clock clk [all_outputs] 
+set_output_delay -min 1 -clock clk [all_outputs] 
+set_fanout_load 8 [all_outputs]
+
+#============= SYNTHESIZE========================
+compile_ultra
+
+#============= REPORT PERFORMANCE ===============
+report_area > ./../report/report.area
+report_timing > ./../report/report.timing
+report_power > ./../report/report.power
+report_port > ./../report/report.port
+report_constraint > ./../report/report.constraint
+report_qor > ./../report/report.qor
+write -f ddc -o ./../report/report.ddc
+write -format verilog -hierarchy -output ./../report/lab_synth.netlist.v
+write_sdf ./../report/report.sdf
+write_sdc ./../report/report.sdc
+
+quit

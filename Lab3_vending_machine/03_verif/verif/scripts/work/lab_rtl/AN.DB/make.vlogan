@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -l /home/albert/Desktop/Lab3_vending_machine/03_verif/sim_result/rtl_vlog.log -full64 +v2k +define+VCS -work lab_rtl -full64
+
+all :		_VCSgd_amPOJ_1.db \
+
+
+
+_VCSgd_amPOJ_1.db :	/home/albert/Desktop/Lab3_vending_machine/02_rtl/vending_machine.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/albert/Desktop/Lab3_vending_machine/02_rtl/vending_machine.v
+
+

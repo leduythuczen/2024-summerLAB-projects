@@ -1,0 +1,111 @@
+{
+    "CurCompileUdps": {},
+    "PEModules": [],
+    "MlibObjs": {},
+    "LVLData": [
+        "SIM"
+    ],
+    "PrevCompiledModules": {
+        "...MASTER...": {
+            "amcQw_d": {
+                "mod": "...MASTER...",
+                "bytes": 7371,
+                "checksum": 0,
+                "mode": 4,
+                "out": "objs/amcQw_d.o"
+            }
+        },
+        "testtop": {
+            "bi8zs_d": {
+                "mod": "testtop",
+                "bytes": 19090,
+                "out": "bi8zs_d.o",
+                "checksum": 0,
+                "mode": 4,
+                "archive": "archive.7/_prev_archive_1.a"
+            }
+        }
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileModules": [
+        "...MASTER...",
+        "testtop"
+    ],
+    "CompileStatus": "Successful",
+    "NameTable": {
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            2
+        ],
+        "testtop": [
+            "testtop",
+            "bi8zs",
+            "module",
+            1
+        ]
+    },
+    "Misc": {
+        "csrc": "csrc",
+        "cwd": "/home/albert/Desktop/Lab3_vending_machine/03_verif/verif/scripts",
+        "archive_dir": "archive.7",
+        "daidir_abs": "/home/albert/Desktop/Lab3_vending_machine/03_verif/verif/scripts/simv.daidir",
+        "csrc_abs": "/home/albert/Desktop/Lab3_vending_machine/03_verif/verif/scripts/csrc",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "CompileProcesses": [
+        "cgproc.3965.json"
+    ],
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.100984,
+            "ru_minflt": 21285,
+            "ru_stime_sec": 0.061990000000000003,
+            "ru_nvcsw": 198,
+            "ru_maxrss_kb": 62208,
+            "ru_majflt": 154,
+            "ru_nivcsw": 47
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0009990000000000001,
+            "ru_minflt": 3660,
+            "ru_stime_sec": 0.0099979999999999999,
+            "ru_nvcsw": 8,
+            "ru_maxrss_kb": 18620,
+            "ru_majflt": 0,
+            "ru_nivcsw": 17
+        },
+        "Frontend(%)": 91.817826391351389,
+        "nMops": 632,
+        "nQuads": 480,
+        "peak_mem_kb": 221472,
+        "CodeGen(%)": 8.1821736086486023,
+        "totalObjSize": 96666,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0009990000000000001,
+            "ru_minflt": 4190,
+            "ru_stime_sec": 0.010998000000000001,
+            "ru_nvcsw": 9,
+            "ru_maxrss_kb": 19100,
+            "ru_majflt": 0,
+            "ru_nivcsw": 19
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.109983,
+            "ru_minflt": 24012,
+            "ru_stime_sec": 0.10198400000000001,
+            "ru_nvcsw": 250,
+            "ru_maxrss_kb": 70368,
+            "ru_majflt": 195,
+            "ru_nivcsw": 53
+        },
+        "outputSizePerQuad": 201.38749999999999
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 96666,
+        "archive": "archive.7/_3965_archive_1.a"
+    }
+}

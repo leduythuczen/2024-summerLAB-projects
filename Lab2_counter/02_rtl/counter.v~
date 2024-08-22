@@ -1,0 +1,15 @@
+module counter(clk,out);
+input clk;
+output [15:0] out;
+
+wire [15:0] cnt_add1;
+wire [15:0] cnt;
+reg [15:0] cnt_reg = 16'b0;
+
+add_1 add1_inst(cnt,cnt_add1);
+DFF ff_inst(cnt_add1,clk,cnt_reg);
+
+assign out = cnt_add1;
+assign cnt = cnt_reg;
+
+endmodule

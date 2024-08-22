@@ -1,0 +1,2 @@
+sid testtop
+bcid 0 0 WIDTH,16 CALL_ARG_VAL,2,0 OPT_CONST,1 ADD RET
