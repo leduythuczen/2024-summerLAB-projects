@@ -1,0 +1,96 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.058491945266723633,
+                0.032994000000000002,
+                0.032994000000000002,
+                207404,
+                220496,
+                1721664032.9909379
+            ],
+            "end_perf": [
+                0.064018011093139648,
+                0.033994000000000003,
+                0.034993999999999997,
+                210344,
+                220496
+            ],
+            "nQuads": 0,
+            "nMops": 0
+        },
+        "WasteSorting_tb": {
+            "start_perf": [
+                0.064095973968505859,
+                0.033994000000000003,
+                0.034993999999999997,
+                210344,
+                220496,
+                1721664032.996542
+            ],
+            "Compiled": "Yes",
+            "Compiled Times": 4,
+            "end_perf": [
+                0.075560092926025391,
+                0.041993000000000003,
+                0.037994,
+                226072,
+                228124
+            ],
+            "nQuads": 1556,
+            "nMops": 3166
+        }
+    },
+    "CompUnits": {
+        "DASCi_d": {
+            "checksum": 0,
+            "bytes": 37671,
+            "mod": "WasteSorting_tb",
+            "out": "DASCi_d.o",
+            "mode": 4,
+            "archive": "archive.3/_10274_archive_1.a"
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_nivcsw": 55,
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.043992999999999997,
+            "ru_stime_sec": 0.040993000000000002,
+            "ru_maxrss_kb": 70804,
+            "ru_minflt": 23923,
+            "ru_nvcsw": 10
+        },
+        "ru_childs_end": {
+            "ru_nivcsw": 20,
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0079979999999999999,
+            "ru_stime_sec": 0.0069979999999999999,
+            "ru_maxrss_kb": 19024,
+            "ru_minflt": 4201,
+            "ru_nvcsw": 9
+        },
+        "peak_mem_kb": 228124
+    },
+    "ObjArchives": [
+        {
+            "size": 135444,
+            "objects": [
+                [
+                    "DASCi_d.o",
+                    37671
+                ],
+                [
+                    "amcQwB.o",
+                    97773
+                ]
+            ],
+            "archive": "archive.3/_10274_archive_1.a"
+        }
+    ]
+}
